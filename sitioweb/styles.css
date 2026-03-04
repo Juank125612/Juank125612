@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    text-align: center;
+    background-image: url("https://img.freepik.com/fotos-premium/fondo-azul-textura-pared-lisa_968502-1401.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav>ul>li>a{
+    display: inline-block;
+    list-style: none;
+    width: 150px;
+    color: black;
+    border-radius: 5px;
+}
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    width: 150px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+#about{
+    text-align: left;
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 5px;
+    background-image: url("https://img.freepik.com/premium-photo/clear-empty-photographer-studio-abstract-background-texture_1032325-523.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.info{
+    display: flex;
+    gap: 20px;
+}
+img#yo{
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+}
+.project-list{
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    gap: 20px;
+    text-align: center; 
+}
+#projects{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.djJybutPhEmYd9UpseEOxwHaEj?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.project>img{
+    margin: auto;
+    width: 50%;
+    border-radius: 25px;
+}
+#proyecto1{
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 5px ;
+    padding: 0.5%;
+}
+#proyecto2{
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 5px ;
+    padding: 0.5%;
+}
+#contact{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    background-image: url("https://i.pinimg.com/170x/03/75/6b/03756b3ae825cf4b8e654120075319c6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.formulario{
+    width: 50%;
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 5px;
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.1oTbYIw8jk1aIhPAfa7k1wHaLG?w=1707&h=2560&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.formulario input, .formulario textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.formulario button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.social-links>a{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.social-links{
+    text-align: center;
+}
